@@ -1,0 +1,22 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.bootimage.brand=Xiaomi
+ro.product.bootimage.device=chime
+ro.product.bootimage.manufacturer=Xiaomi
+ro.product.bootimage.model=Redmi 9T
+ro.product.bootimage.name=lineage_chime
+ro.bootimage.build.date=Thu Jul 21 06:04:45 UTC 2022
+ro.bootimage.build.date.utc=1658383485
+ro.bootimage.build.fingerprint=Xiaomi/lineage_chime/chime:12/SQ3A.220705.003.A1/nobody07211134:userdebug/release-keys
+ro.bootimage.build.id=SQ3A.220705.003.A1
+ro.bootimage.build.tags=release-keys
+ro.bootimage.build.type=userdebug
+ro.bootimage.build.version.incremental=1658383741
+ro.bootimage.build.version.release=12
+ro.bootimage.build.version.release_or_codename=12
+ro.bootimage.build.version.sdk=32
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file

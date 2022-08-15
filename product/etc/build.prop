@@ -1,0 +1,80 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.product.brand=Xiaomi
+ro.product.product.device=chime
+ro.product.product.manufacturer=Xiaomi
+ro.product.product.model=Redmi 9T
+ro.product.product.name=lineage_chime
+ro.product.build.date=Sat Jul 23 08:08:17 UTC 2022
+ro.product.build.date.utc=1658563697
+ro.product.build.fingerprint=Xiaomi/lineage_chime/chime:12/SQ3A.220705.003.A1/nobody07231338:userdebug/release-keys
+ro.product.build.id=SQ3A.220705.003.A1
+ro.product.build.tags=release-keys
+ro.product.build.type=userdebug
+ro.product.build.version.incremental=1658563846
+ro.product.build.version.release=12
+ro.product.build.version.release_or_codename=12
+ro.product.build.version.sdk=32
+####################################
+# from device/xiaomi/chime/product.prop
+####################################
+# audio
+audio.sys.noisy.broadcast.delay=500
+audio.sys.mute.latency.factor=2
+audio.sys.routing.latency=0
+audio.offload.min.duration.secs=30
+audio.sys.offload.pstimeout.secs=3
+# Low memory killer daemon
+ro.lmk.log_stats=true
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=100
+ro.lmk.use_minfree_levels=true
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.build.characteristics=default
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.rice.maintainer=Λｙａｎ
+ro.rice.code=3.5
+ro.rice.packagetype=VANILLA
+ro.rice.releasetype=OFFICIAL
+ro.rice.version=Fries
+ro.rice.chipset=bengal
+ro.rice.build.version=riceDroid-12.1-2022072313-chime-v3.5-VANILLA
+ro.rice.display.version=riceDroid-12.1-chime-v3.5
+ro.rice.platform_release_codename=Sizzle
+ro.ricelegal.url=https://www.manginasal.com/
+ro.iorapd.enable=false
+persist.sys.renderengine.backend=skiaglthreaded
+persist.sys.hwui.renderer=skiagl
+persist.sys.renderthread.skia.reduceopstasksplitting=true
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=60
+persist.sys.fw.bg_apps_limit=48
+persist.sys.fw.use_trim_settings=true
+persist.sys.fw.empty_app_percent=50
+persist.sys.fw.trim_empty_percent=100
+persist.sys.fw.trim_cache_percent=100
+persist.sys.fw.trim_enable_memory=2147483648
+persist.sys.fw.bservice_age=120000
+persist.sys.fw.bservice_limit=6
+persist.sys.fw.bservice_enable=true
+ro.com.google.ime.kb_pad_port_b=1
+ro.com.google.ime.kb_pad_port_l=7
+ro.com.google.ime.kb_pad_port_r=7
+ro.com.google.ime.kb_pad_land_l=14
+ro.com.google.ime.kb_pad_land_r=14
+ro.input.video_enabled=false
+arm64.memtag.process.system_server=off
+dalvik.vm.dex2oat64.enabled=true
+ro.config.notification_sound=oneplus.ogg
+ro.config.alarm_alert=into_the_night.ogg
+ro.support_one_handed_mode=true
+ro.config.ringtone=into_the_night.ogg
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file
